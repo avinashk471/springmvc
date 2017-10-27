@@ -268,46 +268,6 @@
 						<version>0.5.3</version>
 					</dependency>
 				</dependencies>
-				<executions>
-					<execution>
-						<phase>generate-sources</phase>
-						<configuration>
-							<forceRegenerate>true</forceRegenerate>
-							<schemaDirectory>src/main/resources/xsd</schemaDirectory>
-							<bindingIncludes>
-								<include>binding.xjb</include>
-							</bindingIncludes>
-							<args>
-								<arg>-Xvalue-constructor</arg>
-								<arg>-XtoString</arg>
-								<arg>-Xequals</arg>
-								<arg>-XhashCode</arg>
-								<arg>-Xannotate</arg>
-								<arg>-Xcopyable</arg>
-							</args>
-							<plugins>
-								<plugin>
-									<groupId>org.jvnet.jaxb2_commons</groupId>
-									<artifactId>jaxb2-value-constructor</artifactId>
-									<version>3.0</version>
-								</plugin>
-								<plugin>
-									<groupId>org.jvnet.jaxb2_commons</groupId>
-									<artifactId>jaxb2-basics</artifactId>
-									<version>0.5.3</version>
-								</plugin>
-								<plugin>
-									<groupId>org.jvnet.jaxb2_commons</groupId>
-									<artifactId>jaxb2-basics-annotate</artifactId>
-									<version>0.5.3</version>
-								</plugin>
-							</plugins>
-						</configuration>
-						<goals>
-							<goal>generate</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 		<pluginManagement>
