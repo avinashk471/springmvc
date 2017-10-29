@@ -14,7 +14,7 @@
 </head>
 <body>
 <h1>
-	Add a Employee to Mazda Family
+	Add a Employees to Mazda Family
 </h1>
 
 <c:url var="addAction" value="/employee/add" ></c:url>
