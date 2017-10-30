@@ -276,7 +276,7 @@
 				<configuration>
 					<url>http://localhost:8080/manager/text</url>
 					<server>TomcatServer</server>
-					<path>/YourPath</path>
+					<path>C:/MyWorkspace/apache-tomcat-8.0.47/webapps</path>
 				</configuration>
 			</plugin>
 			<plugin>
