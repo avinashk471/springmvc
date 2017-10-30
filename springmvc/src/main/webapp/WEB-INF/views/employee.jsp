@@ -93,13 +93,13 @@
 <c:if test="${!empty listEmployee}">
 	<table class="tg">
 	<tr>
-		<th width="80">Employee ID</th>
-		<th width="120">Employee FirstName</th>
-		<th width="120">Employee LastName</th>
-		<th width="120">Employee Email</th>
-		<th width="120">Employee Phone</th>
-		<th width="60">Edit</th>
-		<th width="60">Delete</th>
+		<th width="80"><strong>Employee ID</strong></th>
+		<th width="120"><strong>Employee FirstName</strong></th>
+		<th width="120"><strong>Employee LastName</strong></th>
+		<th width="120"><strong>Employee Email</strong></th>
+		<th width="120"><strong>Employee Phone</strong></th>
+		<th width="60"><strong>Edit</strong></th>
+		<th width="60"><strong>Delete</strong></th>
 	</tr>
 	<c:forEach items="${listEmployee}" var="employee">
 		<tr>
